@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="apple-touch-icon" sizes="180x180" href="/res/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/res/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/res/icons/favicon-16x16.png">
+	<link rel="manifest" href="/res/icons/site.webmanifest">
+	<link rel="shortcut icon" href="/res/icons/favicon.ico">
+	<meta name="apple-mobile-web-app-title" content="InstaTools">
+	<meta name="application-name" content="InstaTools">
+	<meta name="msapplication-TileColor" content="#2b9fff">
+	<meta name="msapplication-config" content="/res/icons/browserconfig.xml">
+	<meta name="theme-color" content="#2b9fff">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans:400,600,800" rel="stylesheet">
+	<link href="/style/main.css" rel="stylesheet">
+	<link href="/style/buttons.css" rel="stylesheet">
+	<link href="/style/roundforms.css" rel="stylesheet">
+	<title>Home | InstaTools</title>
+</head>
+<body>
+	<div id="component-wrapper">
+		<div id="front-page-head">
+			<nav role="navigation" id="nav-bar" class="page-scale-div">
+				<div class="nav-logo"><img class="nav-logo-img" src="/res/aperture_gscl.svg"/><p class="nav-logo-text">InstaTools</p></div>
+			</nav>
+			<img class="nav-logo-img-mobile" src="/res/aperture_gscl.svg"/>
+			<div id="masthead">
+				<div id="mastwrapper">
+					<p class="masthead-statement">Instagram Post to Twitter Card.<br>Let's start with the post.</p>
+					<form action="/finishpostcard.jdc" class="form-large form-full" method="post">
+						<input type="text" id="instaLink" name="instaLink" placeholder="https://www.instagram.com/p/Br_G2E8n4h4/" value="">
+						<input type="submit" id="instaSub" name="btnSubmit" class="button-right button-hollow-fill white" value="Make Card">
+					</form>
+				</div>
+			</div>
+			<div id="closing-masthead"><p class="closing-masthead-text">&copy; Winter Roberts 2018</p></div>
+		</div>
+	</div>
+</body>
+</html>

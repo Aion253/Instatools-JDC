@@ -1,0 +1,5 @@
+{"processors": [{
+  "name": "itf",
+  "jar": "instatoolsfront.jar",
+  "jdc_class": "com.instatools.web.Main"
+}]}
