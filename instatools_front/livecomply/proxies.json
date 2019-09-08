@@ -1,4 +1,0 @@
-{"proxies": [{
-  "context": "/ajax",
-  "proxy_url": "http://localhost:26752/ajax"
-}]}
