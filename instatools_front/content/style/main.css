@@ -203,6 +203,11 @@ body p, body h1, body a {
 	margin-bottom: 0.5rem;
 }
 
+
+#masthead .masthead-statement a {
+	color: #f7d4f7;
+}
+
 #masthead h1 {
 	color: #fff;
 	margin-bottom: 0.5rem;

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<jdc javaexecute="itf.session.validatesession"/>
 <html>
 <head>
 	<link rel="apple-touch-icon" sizes="180x180" href="/res/icons/apple-touch-icon.png">
