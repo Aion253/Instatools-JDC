@@ -1,4 +1,1 @@
-{"proxies": [{
-  "context": "/",
-  "proxy_url": "/"
-}]}
+{"proxies": []}
