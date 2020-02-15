@@ -1,13 +1,1 @@
-# Java sources
-*.java          text diff=java
-
-# These files are text and should be normalized (Convert crlf => lf)
-*.css           text diff=css
-*.htm           text diff=html
-*.html          text diff=html
-*.jdc           text diff=html
-*.js
-
-# These files are binary and should be left untouched
-# (binary is a macro for -text -diff)
-*.jar           binary
+*.jdc linguist-language=HTML
